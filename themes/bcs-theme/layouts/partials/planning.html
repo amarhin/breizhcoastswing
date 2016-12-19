@@ -1,0 +1,47 @@
+{{ "<!-- Planning section -->" | safeHTML }}
+<section id="planning">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading">{{ with .Site.Params.planning.title }}{{ . }}{{ end }}</h2>
+        <h3 class="section-subheading text-muted">{{ with .Site.Params.planning.subtitle }}{{ . | markdownify }}{{ end }}</h3>
+      </div>
+    </div>
+    {{ range .Site.Params.planning.level }}
+      <div class="row text-center">
+        {{ range .list }}
+          <div class="col-md-4">
+            <h4 class="planning-heading">{{ if .url }}<a href="{{ .url | absURL }}">{{ .title | markdownify }}</a>{{ else }}{{ .title | markdownify }}{{ end }}</h4>
+            <p class="text-muted large">{{ .description | markdownify }}</p>
+          </div>
+        {{ end }}
+      </div>
+    {{ end }}
+    <div class="row col-lg-10 col-lg-offset-1 text-center">
+      <p class="text-muted large">
+        {{ with .Site.Params.planning.interLevelDate }}{{ . | markdownify }}{{ end }}
+      </p>
+    </div>
+    {{ range .Site.Params.planning.date }}
+      <div class="row text-center">
+        {{ range .list }}
+          <div class="col-md-6">
+            <h4 class="planning-heading">{{ if .url }}<a href="{{ .url | absURL }}">{{ .title | markdownify }}</a>{{ else }}{{ .title | markdownify }}{{ end }}</h4>
+            {{ with .hours }}
+            <ul>
+              {{ range . }}
+                <li class="text-muted large">{{ . | markdownify }}</li>
+              {{ end }}
+            </ul>
+            {{ end }}
+          </div>
+        {{ end }}
+      </div>
+    {{ end }}
+    <div class="row col-lg-10 col-lg-offset-1 text-center">
+      <p class="text-muted large">
+        {{ with .Site.Params.planning.bottomPlanning }}{{ . | markdownify }}{{ end }}
+      </p>
+    </div>
+  </div>
+</section>

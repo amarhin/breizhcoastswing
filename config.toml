@@ -1,3 +1,285 @@
 languageCode = "fr-fr"
 title = "Breizh Coast Swing"
 baseurl = "http://breizhcoastswing.fr/"
+theme = "bcs-theme"
+
+[params]
+
+  name = "my2hands"
+  description = "Stages de West Coast Swing à Rennes"
+
+  custom_css = []
+  custom_js  = []
+  favicon    = "favicon.ico"
+
+  disableFonts = false
+
+  # 404 error customization
+  [params.error404]
+    heading = "Page couldn't be found"
+    text = "Please visit [this page](/)"
+
+  # Navigation
+  [params.navigation]
+    brand = "Breizh Coast Swing"
+    presentation = "Présentation"
+    about = "Les professeurs"
+    planning = "Le planning"
+    price = "Les Tarifs"
+    registration = "Inscription"
+    contact = "Contact"
+
+    # Add custom links. Those can be pre- and postpended to the default menu above.
+    # Use the weight attribute to order your custom links. Uncomment the example
+    # below and replace the values with your own.
+
+    # prepended links
+    #[[menu.prepend]]
+    #  url = "http://gohugo.io"
+    #  name = "Hugo"
+    #  weight = 10
+
+    # postpended links
+    [[menu.postpend]]
+      url = "http://gohugo.io"
+      name = "External link"
+      weight = 10
+
+
+  # Hero section
+  [params.hero]
+    title = "Vous avez aimé le Breizh Coast Swing en mars 2016 ? <br />Alors vous aimerez plus encore le"
+    subtitle = "Breizh Coast Swing 2"
+    buttonText = "En savoir plus"
+
+  # Presentation section
+  [params.presentation]
+    enable = true
+    title = "Présentation"
+    subtitle = "Un stage à taille humaine avec un super couple de professeurs !"
+    description = """Nous avons l'honneur d'accueillir<br /><br />
+      <span style="color: #e80c7a; font-weight: bold; font-size: 1.5em">Jang WIDLER</span> et <span style="color: #e80c7a; font-weight: bold; font-size: 1.5em">Estelle Bonnaire</span><br /><br />
+      Venez découvrir la pédagogie incomparable de Jang et la grâce d’Estelle, ils sauront vous ravir !<br /><br />
+      Alors rendez-vous les 18 et 19 mars 2016 !<br /><br />
+      Ce stage est organisé par Hélène BURY et l'association <a href="http://www.fun-club-35.com/"><strong>FUN CLUB 35</strong></a>."""
+
+  # About section
+  [params.about]
+    enable = true
+    title = "Les professeurs"
+    subtitle = "Jang WIDLER et Estelle BONNAIRE"
+    endpoint = """<iframe width="900" height="500" src="https://www.youtube.com/embed/29s3ChQ1_DA" frameborder="0" allowfullscreen></iframe>"""
+
+    # The events will be listed from the top to the bottom.
+    # All images are stored under 'static/img/about'.
+    # Replace them with your own.
+    [[params.about.trainer]]
+      img = "jang_widler_avatar.jpg"
+      title = "Jang"
+      description = """Jang fait ses premiers pas dans des conventions internationales et est à l'origine du développement du WCS à Genève
+        où il enseigne depuis 2008. C’est en séjournant près d'un an aux États-Unis (2010-2011) qu’il aura la chance de parfaire sa technique
+        et peaufiner son enseignement. Il participera, là-bas, à de nombreuses compétitions dans lesquelles il rencontrera un réel succès
+        et qui lui permettent d'évoluer aujourd'hui en division "Advanced". Il enseigne aujourd’hui en Suisse, en Europe et aux USA.<br /><br />
+        C'est en travaillant étroitement avec quelques uns des meilleurs professeurs du monde tels que Brandi Tobias, Michael Kiehm,
+        Michael Kielbasa, Dawne Kiehm etc... que Jang va développer sa propre technique et vision de l'enseignement. Issue des arts martiaux et
+        ancien champion de salsa, son approche particulière du wcs séduit par sa précision, son évidence et son efficacité.<br /><br />
+        C'est avec le soutien de Brandi Tobias et Michael Kiehm qu'il se lance, en 2011, dans la formation de professeurs en Europe.
+        Jang est aujourd'hui le coach d'une quarantaine de professeurs en Suisse et en France. <a href="http://www.wcs-masterclass.fr">www.wcs-masterclass.fr</a>"""
+
+    [[params.about.trainer]]
+      img = "estelle_bonnaire_avatar.jpg"
+      title = "Estelle"
+      description = """C'est à l'âge de 14 ans qu'elle commence la danse avec le Lindy Hop. Une vraie
+        passion et un art de vivre qui la fascinent et la poussent à voyager et apprendre le
+        plus possible concernant les danses Swing. C'est alors qu'elle découvre le West
+        Coast Swing et réalise qu'il s'agit ici de la danse parfaite pour elle, alliant
+        technique, fluidité et Swing. <br /><br />
+        Elle déménage à Montréal en 2011 et s'y installe
+        pendant 2 ans pour pouvoir apprendre encore et se perfectionner en compétition,
+        elle est actuellement en niveau All Star et a pu suivre des formations
+        professionnelles diverses dans cette danse.<br /><br />
+        Maintenant à la tête de son association de WCS Move Addict a Montpellier et
+        représentante de la marque de chaussure de dans Sway'd."""
+
+  # Planning section
+  [params.planning]
+    enable = true
+    title = "Le planning"
+    subtitle = "3 niveaux de 3 heures chacun"
+
+    interLevelDate = """Attention : il n’y aura pas de test de niveau, néanmoins les professeurs
+      et organisateurs se réservent la possibilité de vous faire changer de niveau(x) si celui
+      (ou ceux) que vous avez choisi(s) n’est (ou ne sont) pas approprié(s) !
+      <br /><br />Les cours seront répartis comme suit :"""
+
+    bottomPlanning = """Merci d'arriver 15 min avant votre cours.
+      Le stage aura lieu dans son intégralité (cours + soirée) à Dance Gallery,
+      20 rue Perrin de la Touche, 35000 Rennes.<br /><br />
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2663.405260230934!2d-1.6905426847542313!3d48.12170756024573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480ede248e83974d%3A0x16e41597e798d823!2sDance+Gallery!5e0!3m2!1sfr!2sfr!4v1447616147766" width="900" height="500" frameborder="0" style="border:0" allowfullscreen=""></iframe>"""
+
+    [[params.planning.level]]
+
+    [[params.planning.level.list]]
+      title = "Débutant"
+      description = "Vous avez commencé le WCS en septembre 2015, ce niveau est pour vous !"
+      url = "#"
+
+    [[params.planning.level.list]]
+      title = "Intermédiaire"
+      description = """Vous avez au moins 1 an et demi de cours,
+        vous participez à toutes les soirées au cours desquelles vous dansez sur
+        tous les tempo sans problème, ceci est votre niveau !"""
+      url = "#"
+
+    [[params.planning.level.list]]
+      title = "Avancé"
+      description = """Vous dansez depuis au moins 3 ans et faites tous les stages de la région,
+        voire de France et d’Europe ! :-) Vous êtes un mordu de WCS, ceci est votre niveau !"""
+      url = "#"
+
+    [[params.planning.date]]
+
+    [[params.planning.date.list]]
+      title = "Samedi"
+      hours = [
+        "Accueil des stagiaires dès 13h",
+        "13h30 à 15h00 - Débutant",
+        "15h20 à 16h50 - Intermédiaire",
+        "17h10 à 18h40 - Avancé"
+      ]
+      url = "#"
+
+    [[params.planning.date.list]]
+      title = "Dimanche"
+      hours = [
+        "Accueil des stagiaires dès 13h30",
+        "14h00 à 15h30 - Avancé",
+        "15h50 à 17h20 - Intermédiaire",
+        "17h40 à 19h10 - Débutant"
+      ]
+      url = "#"
+
+  # Price section
+  [params.price]
+    enable = true
+    title = "Les tarifs"
+
+    [[params.price.date]]
+
+    [[params.price.date.list]]
+      title = "Avant le 15 janvier 2016"
+      price = [
+        "1 niveau (3h) : 40 euro",
+        "2 niveaux (6h) : 70 euro",
+        "3 niveaux (9h) : 100 euro"
+      ]
+      url = "#"
+
+    [[params.price.date.list]]
+      title = "Après le 15 janvier 2016"
+      price = [
+        "1 niveau (3h) : 50 euro",
+        "2 niveaux (6h) : 80 euro",
+        "3 niveaux (9h) : 110 euro"
+      ]
+      url = "#"
+
+    [[params.price.date.list]]
+      title = "Soirée du samedi soir"
+      price = [
+        "Incluse pour les stagiaires",
+        "10 euro pour les extérieurs"
+      ]
+      url = "#"
+
+    [[params.price.condition]]
+
+    [[params.price.condition.list]]
+      title = "Confirmation des inscriptions"
+      description = """Les inscriptions ne seront confirmées qu'à réception du
+        règlement que vous pouvez soit me remettre en main propre, soit m'envoyer à l'adresse suivante :<br /><br />
+        Hélène BURY<br />
+        7 A rue de la Chalotais<br />
+        35510 CESSON-SEVIGNE<br /><br />
+        Merci de libeller vos chèques à l'ordre de l'association « FUN CLUB 35 »."""
+      url = "#"
+
+    [[params.price.condition.list]]
+      title = "Conditions d'annulation"
+      description = """En cas d'annulation jusqu'à 2 mois du stage, nous vous remboursons le stage mais conservons 10 euro pour frais de gestion<br /><br />
+      Entre 2 mois et 15 jours du stage, nous vous remboursons 50 % du prix du stage<br /><br />
+      À moins de 15 jours du stage (y compris pour cause de blessure ou de train ou de vol annulé), nous serons au regret de ne pouvoir vous rembourser"""
+      url = "#"
+
+  # Registration section
+  [params.registration]
+    enable = true
+    title = "Inscription"
+    googleForm = "https://docs.google.com/forms/d/1ITNXORCcxX9CLrvKqs7-bt30u129d6-K90c_rg7F0Jo/viewform?embedded=true"
+    width = "900"
+    height = "600"
+
+  # Contact section
+  [params.contact]
+    enable = true
+    title = "Contactez nous"
+    buttonText = "Envoyer le message"
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+
+    # It is possible to substitute formspring with other providers
+    # as an example the mailout plugin from caddy.
+    # Provide the post URL for the form and depending on the provider
+    # add some custom JS script to finish the implementation.
+    # postURL = "https://example.com/mailout/"
+
+    email = "your@email.com"
+
+    # Success and error message overwrite for async contact form
+    #thanks = "Thank you for awesomely contacting us."
+    #error = "Message could not be send. Please contact us at mail@example.com instead."
+
+    # 'warning' defines error messages for invalid inputs
+    [params.contact.form.lastname]
+      text = "Votre Nom *"
+      warning = "Veuillez saisir votre nom."
+
+    [params.contact.form.firstname]
+      text = "Votre Prénom *"
+      warning = "Veuillez saisir votre prénom."
+
+    [params.contact.form.email]
+      text = "Votre Email *"
+      warning = "Veuillez saisir votre adresse email."
+
+
+    [params.contact.form.message]
+      text = "Votre message *"
+      warning = "Veuillez saisir votre message."
+
+      # Add optional form fields to identify contact forms
+      #[[params.contact.form.hidden]]
+      #  name = "someID"
+      #  value = "example.com"
+      #
+      #[[params.contact.form.hidden]]
+      # Special values for name such as "page" and "site" will be autofilled
+      #  name = "page"
+
+  # Footer section
+  [params.footer]
+    enable = true
+
+  [[params.footer.social]]
+    icon = "fa-facebook"
+    link = "https://www.facebook.com/events/1636665369883811/"

@@ -1,0 +1,14 @@
+name = "breizhcoastswing"
+license = "Apache License 2.0"
+description = "The Breizh Coast Swing website theme"
+min_version = 0.15
+
+[author]
+  name = "My 2 hands"
+  homepage = "//breizhcoastswing.fr"
+
+# If porting an existing theme
+[original]
+  name = "Arnaud Marhin"
+  homepage = "//www.kamino.org/"
+  repo = "//github.com/amarhin/breizhcoastswing"
