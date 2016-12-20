@@ -11,7 +11,7 @@
       <div class="row text-center">
         {{ range .list }}
           <div class="col-md-4">
-            <h4 class="planning-heading">{{ if .url }}<a href="{{ .url | absURL }}">{{ .title | markdownify }}</a>{{ else }}{{ .title | markdownify }}{{ end }}</h4>
+            <h4 class="planning-heading">{{ if .url }}<a href="{{ .url }}">{{ .title | markdownify }}</a>{{ else }}{{ .title | markdownify }}{{ end }}</h4>
             <p class="text-muted large">{{ .description | markdownify }}</p>
           </div>
         {{ end }}
@@ -26,7 +26,7 @@
       <div class="row text-center">
         {{ range .list }}
           <div class="col-md-6">
-            <h4 class="planning-heading">{{ if .url }}<a href="{{ .url | absURL }}">{{ .title | markdownify }}</a>{{ else }}{{ .title | markdownify }}{{ end }}</h4>
+            <h4 class="planning-heading">{{ if .url }}<a href="{{ .url }}">{{ .title | markdownify }}</a>{{ else }}{{ .title | markdownify }}{{ end }}</h4>
             {{ with .hours }}
             <ul>
               {{ range . }}

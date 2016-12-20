@@ -121,20 +121,20 @@ theme = "bcs-theme"
     [[params.planning.level.list]]
       title = "Débutant"
       description = "Vous avez commencé le WCS en septembre 2015, ce niveau est pour vous !"
-      url = "#"
+      url = "#planning"
 
     [[params.planning.level.list]]
       title = "Intermédiaire"
       description = """Vous avez au moins 1 an et demi de cours,
         vous participez à toutes les soirées au cours desquelles vous dansez sur
         tous les tempo sans problème, ceci est votre niveau !"""
-      url = "#"
+      url = "#planning"
 
     [[params.planning.level.list]]
       title = "Avancé"
       description = """Vous dansez depuis au moins 3 ans et faites tous les stages de la région,
         voire de France et d’Europe ! :-) Vous êtes un mordu de WCS, ceci est votre niveau !"""
-      url = "#"
+      url = "#planning"
 
     [[params.planning.date]]
 
@@ -146,7 +146,7 @@ theme = "bcs-theme"
         "15h20 à 16h50 - Intermédiaire",
         "17h10 à 18h40 - Avancé"
       ]
-      url = "#"
+      url = "#planning"
 
     [[params.planning.date.list]]
       title = "Dimanche"
@@ -156,7 +156,7 @@ theme = "bcs-theme"
         "15h50 à 17h20 - Intermédiaire",
         "17h40 à 19h10 - Débutant"
       ]
-      url = "#"
+      url = "#planning"
 
   # Price section
   [params.price]
@@ -172,7 +172,7 @@ theme = "bcs-theme"
         "2 niveaux (6h) : 70 euro",
         "3 niveaux (9h) : 100 euro"
       ]
-      url = "#"
+      url = "#price"
 
     [[params.price.date.list]]
       title = "Après le 15 janvier 2016"
@@ -181,7 +181,7 @@ theme = "bcs-theme"
         "2 niveaux (6h) : 80 euro",
         "3 niveaux (9h) : 110 euro"
       ]
-      url = "#"
+      url = "#price"
 
     [[params.price.date.list]]
       title = "Soirée du samedi soir"
@@ -189,7 +189,7 @@ theme = "bcs-theme"
         "Incluse pour les stagiaires",
         "10 euro pour les extérieurs"
       ]
-      url = "#"
+      url = "#price"
 
     [[params.price.condition]]
 
@@ -201,14 +201,14 @@ theme = "bcs-theme"
         7 A rue de la Chalotais<br />
         35510 CESSON-SEVIGNE<br /><br />
         Merci de libeller vos chèques à l'ordre de l'association « FUN CLUB 35 »."""
-      url = "#"
+      url = "#price"
 
     [[params.price.condition.list]]
       title = "Conditions d'annulation"
       description = """En cas d'annulation jusqu'à 2 mois du stage, nous vous remboursons le stage mais conservons 10 euro pour frais de gestion<br /><br />
       Entre 2 mois et 15 jours du stage, nous vous remboursons 50 % du prix du stage<br /><br />
       À moins de 15 jours du stage (y compris pour cause de blessure ou de train ou de vol annulé), nous serons au regret de ne pouvoir vous rembourser"""
-      url = "#"
+      url = "#price"
 
   # Registration section
   [params.registration]
