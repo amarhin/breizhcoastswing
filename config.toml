@@ -14,10 +14,9 @@ theme = "bcs-theme"
 
   disableFonts = false
 
-  # 404 error customization
   [params.error404]
-    heading = "Page couldn't be found"
-    text = "Please visit [this page](/)"
+    heading = "La page que vous recherchez est introuvable"
+    text = "Rendez-vous sur notre page d'accueil [Breizhcoastswing.com](/)"
 
   # Navigation
   [params.navigation]
