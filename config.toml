@@ -233,7 +233,8 @@ theme = "bcs-theme"
 
     # Success and error message overwrite for async contact form
     thanks = "Merci de nous avoir contacté!"
-    error = "Votre message ne peut malheureusement être envoyé."
+    error = """Votre message ne peut malheureusement être envoyé.<br />
+      Veuillez retentez utltérieurement."""
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.lastname]
