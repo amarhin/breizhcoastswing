@@ -21,23 +21,23 @@
       <p class="text-muted large">
         {{ with .Site.Params.planning.interLevelDate }}{{ . | markdownify }}{{ end }}
       </p>
-    </div>
-    {{ range .Site.Params.planning.date }}
-      <div class="row text-center">
-        {{ range .list }}
-          <div class="col-md-6">
-            <h4 class="planning-heading">{{ if .url }}<a href="{{ .url }}">{{ .title | markdownify }}</a>{{ else }}{{ .title | markdownify }}{{ end }}</h4>
-            {{ with .hours }}
-            <ul>
-              {{ range . }}
-                <li class="text-muted large">{{ . | markdownify }}</li>
+      {{ range .Site.Params.planning.date }}
+        <div class="row text-center">
+          {{ range .list }}
+            <div class="col-md-6">
+              <h4 class="planning-heading">{{ if .url }}<a href="{{ .url }}">{{ .title | markdownify }}</a>{{ else }}{{ .title | markdownify }}{{ end }}</h4>
+              {{ with .hours }}
+              <ul>
+                {{ range . }}
+                  <li class="text-muted large">{{ . | markdownify }}</li>
+                {{ end }}
+              </ul>
               {{ end }}
-            </ul>
-            {{ end }}
-          </div>
-        {{ end }}
-      </div>
-    {{ end }}
+            </div>
+          {{ end }}
+        </div>
+      {{ end }}
+    </div>
     <div class="row col-lg-10 col-lg-offset-1 text-center">
       <p class="text-muted large">
         {{ with .Site.Params.planning.bottomPlanning }}{{ . | markdownify }}{{ end }}
