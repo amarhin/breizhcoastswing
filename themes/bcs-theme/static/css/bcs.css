@@ -87,7 +87,7 @@ h6 {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
     border-color: #e80c7a;
-    color: #fff;
+    color: #000;
     background-color: #ff0c7a;
 }
 
@@ -235,7 +235,7 @@ fieldset[disabled] .btn-xl.active {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #000;
+    color: #fff;
 }
 
 .navbar-default .nav li a:hover,
