@@ -82,8 +82,8 @@ theme = "bcs-theme"
         pendant 2 ans pour pouvoir apprendre encore et se perfectionner en compétition,
         elle est actuellement en niveau All Star et a pu suivre des formations
         professionnelles diverses dans cette danse.<br /><br />
-        Maintenant à la tête de son association de WCS Move Addict a Montpellier et
-        représentante de la marque de chaussure de dans Sway'd."""
+        Maintenant à la tête de son association de WCS Move Addict à Montpellier et
+        représentante de la marque de chaussures de danse Sway'd."""
 
   # Planning section
   [params.planning]
@@ -107,7 +107,7 @@ theme = "bcs-theme"
 
     [[params.planning.level.list]]
       title = "Débutant"
-      description = "Vous avez commencé le WCS en septembre 2015, ce niveau est pour vous !"
+      description = "Vous avez commencé le WCS en septembre 2016, ce niveau est pour vous !"
       url = "#planning"
 
     [[params.planning.level.list]]
@@ -153,7 +153,7 @@ theme = "bcs-theme"
     [[params.price.date]]
 
     [[params.price.date.list]]
-      title = "Avant le 15 janvier 2016"
+      title = "Avant le 26 janvier 2017"
       price = [
         "1 niveau (3h) : 40 euro",
         "2 niveaux (6h) : 70 euro",
@@ -162,7 +162,7 @@ theme = "bcs-theme"
       url = "#price"
 
     [[params.price.date.list]]
-      title = "Après le 15 janvier 2016"
+      title = "Après le 26 janvier 2017"
       price = [
         "1 niveau (3h) : 50 euro",
         "2 niveaux (6h) : 80 euro",
@@ -229,11 +229,11 @@ theme = "bcs-theme"
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "your@email.com"
+    email = "breizhcoastswing@gmail.com"
 
     # Success and error message overwrite for async contact form
-    #thanks = "Thank you for awesomely contacting us."
-    #error = "Message could not be send. Please contact us at mail@example.com instead."
+    thanks = "Merci de nous avoir contacté!"
+    error = "Votre message ne peut malheureusement être envoyé."
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.lastname]
@@ -247,7 +247,6 @@ theme = "bcs-theme"
     [params.contact.form.email]
       text = "Votre Email *"
       warning = "Veuillez saisir votre adresse email."
-
 
     [params.contact.form.message]
       text = "Votre message *"
