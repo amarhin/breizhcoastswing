@@ -68,7 +68,7 @@ theme = "bcs-theme"
     enable = true
     title = "Les professeurs"
     subtitle = "Jang WIDLER et Estelle BONNAIRE"
-    endpoint = """<iframe width="900" height="500" src="https://www.youtube.com/embed/29s3ChQ1_DA" frameborder="0" allowfullscreen></iframe>"""
+    endpoint = """<iframe width="853" height="480" src="https://www.youtube.com/embed/29s3ChQ1_DA" frameborder="0" allowfullscreen></iframe>"""
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
@@ -115,7 +115,7 @@ theme = "bcs-theme"
     bottomPlanning = """Merci d'arriver 15 min avant votre cours.
       Le stage aura lieu dans son intégralité (cours + soirée) à Dance Gallery,
       20 rue Perrin de la Touche, 35000 Rennes.<br /><br />
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2663.405260230934!2d-1.6905426847542313!3d48.12170756024573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480ede248e83974d%3A0x16e41597e798d823!2sDance+Gallery!5e0!3m2!1sfr!2sfr!4v1447616147766" width="900" height="500" frameborder="0" style="border:0" allowfullscreen=""></iframe>"""
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2663.405260230934!2d-1.6905426847542313!3d48.12170756024573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480ede248e83974d%3A0x16e41597e798d823!2sDance+Gallery!5e0!3m2!1sfr!2sfr!4v1447616147766" width="853" height="480" frameborder="0" style="border:0" allowfullscreen=""></iframe>"""
 
     [[params.planning.level]]
 
