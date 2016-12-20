@@ -47,18 +47,24 @@ $('.navbar-collapse ul li a').click(function() {
 });
 
 // Async contact form
-$('form[id=contactForm]').submit(function(){
-  $.post($(this).attr('action'), $(this).serialize(), function(res){
-    $('form[id=contactForm] #success').hide();
-    $('form[id=contactForm] #error').hide();
-    if (res.code == "200")
+$('form[id=contactForm]').submit(function(e) {
+	e.preventDefault();
+	$.ajax({
+		url: '//formspree.io/breizhcoastswing@gmail.com',
+		method: 'POST',
+		data: $(this).serialize(),
+		dataType: 'json',
+		success: function(data) {
+      $('form[id=contactForm] #success').hide();
+      $('form[id=contactForm] #error').hide();
       $('form[id=contactForm] #success').show();
-    }).fail(function(){
-    $('form[id=contactForm] #success').hide();
-    $('form[id=contactForm] #error').hide();
-    $('form[id=contactForm] #error').show();
-  });
-  return false;
+		},
+		error: function(err) {
+      ('form[id=contactForm] #success').hide();
+      $('form[id=contactForm] #error').hide();
+      $('form[id=contactForm] #error').show();
+		}
+	});
 });
 
 // Contact form validation
