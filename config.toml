@@ -10,7 +10,7 @@ theme = "bcs-theme"
 
   custom_css = []
   custom_js  = []
-  favicon    = "favicon.ico"
+  # favicon    = "favicon.ico"
 
   disableFonts = false
 
