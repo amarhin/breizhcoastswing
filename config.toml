@@ -1,6 +1,6 @@
 languageCode = "fr-fr"
 title = "Breizh Coast Swing"
-baseurl = "http://breizhcoastswing.fr/"
+baseurl = "http://www.breizhcoastswing.fr/"
 theme = "bcs-theme"
 
 [params]
