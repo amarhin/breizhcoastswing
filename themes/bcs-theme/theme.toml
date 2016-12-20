@@ -1,14 +1,17 @@
 name = "breizhcoastswing"
 license = "Apache License 2.0"
+licencelink = "//www.apache.org/licenses/LICENSE-2.0"
 description = "The Breizh Coast Swing website theme"
+repo = "//github.com/amarhin/breizhcoastswing"
+tags = ["rennes", "west", "coast", "swing", "wcs"]
 min_version = 0.15
 
 [author]
-  name = "My 2 hands"
-  homepage = "//breizhcoastswing.fr"
-
-# If porting an existing theme
-[original]
   name = "Arnaud Marhin"
-  homepage = "//www.kamino.org/"
-  repo = "//github.com/amarhin/breizhcoastswing"
+  homepage = "//www.kamino.org"
+  repo = "//github.com/amarhin"
+
+[original]
+  name = "digitalcraftsman"
+  homepage = "//github.com/digitalcraftsman"
+  repo = "//github.com/digitalcraftsman/hugo-agency-theme"
