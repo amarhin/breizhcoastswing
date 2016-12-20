@@ -30,14 +30,14 @@
 
                 {{ with .Site.Params.contact.form.lastname }}
                 <div class="form-group">
-                  <input class="form-control" id="lastName" required="required" type="text" name="name" placeholder="{{ with .text }}{{ .  | markdownify }}{{ end }}" data-validation-error-msg="{{ with .warning }}{{ . | markdownify }}{{ end }}">
+                  <input class="form-control" id="lastName" required="required" type="text" name="lastName" placeholder="{{ with .text }}{{ .  | markdownify }}{{ end }}" data-validation-error-msg="{{ with .warning }}{{ . | markdownify }}{{ end }}">
                   <p class="help-block text-danger"></p>
                 </div>
                 {{ end }}
 
                 {{ with .Site.Params.contact.form.firstname }}
                 <div class="form-group">
-                  <input class="form-control" id="firstName" required="required" type="text" name="name" placeholder="{{ with .text }}{{ .  | markdownify }}{{ end }}" data-validation-error-msg="{{ with .warning }}{{ . | markdownify }}{{ end }}">
+                  <input class="form-control" id="firstName" required="required" type="text" name="firstName" placeholder="{{ with .text }}{{ .  | markdownify }}{{ end }}" data-validation-error-msg="{{ with .warning }}{{ . | markdownify }}{{ end }}">
                   <p class="help-block text-danger"></p>
                 </div>
                 {{ end }}
