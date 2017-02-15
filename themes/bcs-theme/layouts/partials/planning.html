@@ -24,7 +24,7 @@
       {{ range .Site.Params.planning.date }}
         <div class="row text-center">
           {{ range .list }}
-            <div class="col-md-6">
+            <div class="col-md-4">
               <h4 class="planning-heading">{{ if .url }}<a href="{{ .url }}">{{ .title | markdownify }}</a>{{ else }}{{ .title | markdownify }}{{ end }}</h4>
               {{ with .hours }}
               <ul>

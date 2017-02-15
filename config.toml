@@ -42,7 +42,7 @@ theme = "bcs-theme"
     description = """Nous avons l'honneur d'accueillir<br /><br />
       <span style="color: #e80c7a; font-weight: bold; font-size: 1.5em">Jang WIDLER</span> et <span style="color: #e80c7a; font-weight: bold; font-size: 1.5em">Estelle BONNAIRE</span><br /><br />
       Venez découvrir la pédagogie incomparable de Jang et la grâce d’Estelle, ils sauront vous ravir !<br /><br />
-      Alors rendez-vous les 18 et 19 mars 2016 !<br /><br />
+      Alors rendez-vous les 18 et 19 mars 2017 !<br /><br />
       Ce stage est organisé par Hélène BURY et l'association <a href="http://www.fun-club-35.com/"><strong>FUN CLUB 35</strong></a>."""
 
   # About section
@@ -135,6 +135,13 @@ theme = "bcs-theme"
         "13h30 à 15h00 - Débutant",
         "15h20 à 16h50 - Intermédiaire",
         "17h10 à 18h40 - Avancé"
+      ]
+      url = "#planning"
+
+    [[params.planning.date.list]]
+      title = "Soirée"
+      hours = [
+        "A partir de 21h30"
       ]
       url = "#planning"
 
