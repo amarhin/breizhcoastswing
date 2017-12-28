@@ -1,6 +1,6 @@
 languageCode = "fr-fr"
 title = "Breizh Coast Swing"
-baseurl = "http://www.breizhcoastswing.fr"
+baseurl = "http://www.breizhcoastswing.fr/bcs3"
 theme = "bcs-theme"
 
 [params]
@@ -30,8 +30,8 @@ theme = "bcs-theme"
 
   # Hero section
   [params.hero]
-    title = "Vous avez aimé le Breizh Coast Swing en mars 2016 ? <br />Alors vous aimerez plus encore le"
-    subtitle = "Breizh Coast Swing 2"
+    title = "Vous avez aimé le Breizh Coast Swing en mars 2017 ? <br />Alors vous aimerez plus encore le"
+    subtitle = "Breizh Coast Swing 3"
     buttonText = "En savoir plus"
 
   # Presentation section
@@ -40,9 +40,9 @@ theme = "bcs-theme"
     title = "Présentation"
     subtitle = "Un stage à taille humaine avec un super couple de professeurs !"
     description = """Nous avons l'honneur d'accueillir<br /><br />
-      <span style="color: #e80c7a; font-weight: bold; font-size: 1.5em">Jang WIDLER</span> et <span style="color: #e80c7a; font-weight: bold; font-size: 1.5em">Estelle BONNAIRE</span><br /><br />
+      <span style="color: #0033cc; font-weight: bold; font-size: 1.5em">Jang WIDLER</span> et <span style="color: #0033cc; font-weight: bold; font-size: 1.5em">Estelle BONNAIRE</span><br /><br />
       Venez découvrir la pédagogie incomparable de Jang et la grâce d’Estelle, ils sauront vous ravir !<br /><br />
-      Alors rendez-vous les 18 et 19 mars 2017 !<br /><br />
+      Alors rendez-vous les 17 et 18 mars 2018 !<br /><br />
       Ce stage est organisé par Hélène BURY et l'association <a href="http://www.fun-club-35.com/"><strong>FUN CLUB 35</strong></a>."""
 
   # About section
@@ -51,7 +51,7 @@ theme = "bcs-theme"
     title = "Les professeurs"
     subtitle = "Jang WIDLER et Estelle BONNAIRE"
     endpoint = """<div class="iframeWrapper">
-        <iframe width="853" height="480" src="https://www.youtube.com/embed/29s3ChQ1_DA" frameborder="0" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/BoNg_W-MP-c" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
       </div>"""
 
     # The events will be listed from the top to the bottom.
@@ -110,7 +110,7 @@ theme = "bcs-theme"
 
     [[params.planning.level.list]]
       title = "Débutant"
-      description = "Vous avez commencé le WCS en septembre 2016, ce niveau est pour vous !"
+      description = "Vous avez commencé le WCS en septembre 2017, ce niveau est pour vous !"
       url = "#planning"
 
     [[params.planning.level.list]]
@@ -163,7 +163,7 @@ theme = "bcs-theme"
     [[params.price.date]]
 
     [[params.price.date.list]]
-      title = "Avant le 26 janvier 2017"
+      title = "Avant le 26 janvier 2018"
       price = [
         "1 niveau (3h) : 40 euro",
         "2 niveaux (6h) : 70 euro",
@@ -172,7 +172,7 @@ theme = "bcs-theme"
       url = "#price"
 
     [[params.price.date.list]]
-      title = "Après le 26 janvier 2017"
+      title = "Après le 26 janvier 2018"
       price = [
         "1 niveau (3h) : 50 euro",
         "2 niveaux (6h) : 80 euro",
@@ -195,8 +195,8 @@ theme = "bcs-theme"
       description = """Les inscriptions ne seront confirmées qu'à réception du
         règlement que vous pouvez soit me remettre en main propre, soit m'envoyer à l'adresse suivante :<br /><br />
         Hélène BURY<br />
-        7 A rue de la Chalotais<br />
-        35510 CESSON-SEVIGNE<br /><br />
+        XXXXX<br />
+        35000 RENNES<br /><br />
         Merci de libeller vos chèques à l'ordre de l'association « FUN CLUB 35 »."""
       url = "#price"
 
@@ -212,7 +212,7 @@ theme = "bcs-theme"
     enable = true
     title = "Inscription"
     googleForm = """<div class="iframeWrapper">
-    <iframe src="https://docs.google.com/forms/d/1ITNXORCcxX9CLrvKqs7-bt30u129d6-K90c_rg7F0Jo/viewform?embedded=true" width="900" height="600" frameborder="0" marginwidth="0" marginheight="0">Chargement en cours&#8230;</iframe>
+    <iframe src="https://docs.google.com/forms/d/1lABNNe2Ks1LuBxjigM3Z830draKRL0aoxbYQ92rNGvc/viewform?embedded=true" width="900" height="600" frameborder="0" marginwidth="0" marginheight="0">Chargement en cours&#8230;</iframe>
     </div>"""
 
   # Contact section
@@ -251,4 +251,4 @@ theme = "bcs-theme"
 
   [[params.footer.social]]
     icon = "fa-facebook"
-    link = "https://www.facebook.com/events/238617836550168/"
+    link = "https://www.facebook.com/events/1612524012165504/"
