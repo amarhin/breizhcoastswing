@@ -30,7 +30,7 @@ theme = "bcs-theme"
 
   # Hero section
   [params.hero]
-    title = "Vous avez aimé le Breizh Coast Swing en mars 2017 ? <br />Alors vous aimerez plus encore le"
+    title = "Vous avez aimé le Breizh Coast Swing 2 en mars 2017 ? <br />Alors vous aimerez plus encore le"
     subtitle = "Breizh Coast Swing 3"
     buttonText = "En savoir plus"
 
