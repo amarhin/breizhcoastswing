@@ -27,14 +27,10 @@
       {{ partial "registration.html" . }}
     {{ end }}
 
-    {{ if .Site.Params.contact.enable }}
-      {{ partial "contact.html" . }}
-    {{ end }}
-
     {{ if .Site.Params.footer.enable }}
       {{ partial "footer.html" . }}
     {{ end }}
-    
+
     {{ partial "js.html" . }}
   </body>
 </html>

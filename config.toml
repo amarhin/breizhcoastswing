@@ -26,12 +26,11 @@ theme = "bcs-theme"
     planning = "Le planning"
     price = "Les Tarifs"
     registration = "Inscription"
-    contact = "Contact"
 
   # Hero section
   [params.hero]
-    title = "Vous avez aimé le Breizh Coast Swing 2 en mars 2017 ? <br />Alors vous aimerez plus encore le"
-    subtitle = "Breizh Coast Swing 3"
+    title = "Vous avez aimé le Breizh Coast Swing 3 en février 2018 ? <br />Alors vous aimerez plus encore le"
+    subtitle = "Breizh Coast Swing 4"
     buttonText = "En savoir plus"
 
   # Presentation section
@@ -40,36 +39,26 @@ theme = "bcs-theme"
     title = "Présentation"
     subtitle = "Un stage à taille humaine avec un super couple de professeurs !"
     description = """Nous avons l'honneur d'accueillir<br /><br />
-      <span style="color: #0033cc; font-weight: bold; font-size: 1.5em">Jang WIDLER</span> et <span style="color: #0033cc; font-weight: bold; font-size: 1.5em">Estelle BONNAIRE</span><br /><br />
-      Venez découvrir la pédagogie incomparable de Jang et la grâce d’Estelle, ils sauront vous ravir !<br /><br />
-      Alors rendez-vous les 17 et 18 mars 2018 !<br /><br />
+      <span style="color: #51161c; font-weight: bold; font-size: 1.5em">Estelle BONNAIRE</span> et <span style="color: #51161c; font-weight: bold; font-size: 1.5em">David CLAVILIER</span><br /><br />
+      Venez découvrir la grâce d’Estelle et la classe de David, ils sauront vous ravir !<br /><br />
+      Alors rendez-vous les 16 et 17 février 2019 !<br /><br />
       Ce stage est organisé par Hélène BURY et l'association <a href="http://www.fun-club-35.com/"><strong>FUN CLUB 35</strong></a>."""
 
   # About section
   [params.about]
     enable = true
     title = "Les professeurs"
-    subtitle = "Jang WIDLER et Estelle BONNAIRE"
+    subtitle = "Estelle BONNAIRE et David CLAVILIER"
     endpoint = """<div class="iframeWrapper">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/BoNg_W-MP-c" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-      </div>"""
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/V0lzTvf39M0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div><br /> <br />
+      <div class="iframeWrapper">
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/Y7mu7xn4cH8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>"""
 
     # The events will be listed from the top to the bottom.
     # All images are stored under 'static/img/about'.
     # Replace them with your own.
-    [[params.about.trainer]]
-      img = "jang_widler_avatar.jpg"
-      title = "Jang"
-      description = """Jang fait ses premiers pas dans des conventions internationales et est à l'origine du développement du WCS à Genève
-        où il enseigne depuis 2008. C’est en séjournant près d'un an aux États-Unis (2010-2011) qu’il aura la chance de parfaire sa technique
-        et peaufiner son enseignement. Il participera, là-bas, à de nombreuses compétitions dans lesquelles il rencontrera un réel succès
-        et qui lui permettent d'évoluer aujourd'hui en division "Advanced". Il enseigne aujourd’hui en Suisse, en Europe et aux USA.<br /><br />
-        C'est en travaillant étroitement avec quelques uns des meilleurs professeurs du monde tels que Brandi Tobias, Michael Kiehm,
-        Michael Kielbasa, Dawne Kiehm etc... que Jang va développer sa propre technique et vision de l'enseignement. Issue des arts martiaux et
-        ancien champion de salsa, son approche particulière du wcs séduit par sa précision, son évidence et son efficacité.<br /><br />
-        C'est avec le soutien de Brandi Tobias et Michael Kiehm qu'il se lance, en 2011, dans la formation de professeurs en Europe.
-        Jang est aujourd'hui le coach d'une quarantaine de professeurs en Suisse et en France. <a href="https://www.bim.dance/">https://www.bim.dance/</a>"""
-
     [[params.about.trainer]]
       img = "estelle_bonnaire_avatar.jpg"
       title = "Estelle"
@@ -84,6 +73,15 @@ theme = "bcs-theme"
         professionnelles diverses dans cette danse.<br /><br />
         Elle est maintenant à la tête de son association de WCS Move Addict à Montpellier."""
 
+    [[params.about.trainer]]
+      img = "david_avatar.jpg"
+      title = "David"
+      description = """David commence le rock'n roll à l'âge de 12 ans, puis se lance très vite dans la pratique du Boogie Woogie.
+        A 13 ans il débute la compétition et obtient de nombreux titres de champion de France dans ces deux disciplines.<br /><br />
+        Plus récemment, David s'est pris de passion pour le West Coast Swing, danse beaucoup plus moderne, destinée à un public beaucoup plus large.
+        Il participe depuis à des compétitions internationales dans lesquelles il a pu atteindre, en une année,
+        le niveau Advanced (l'une des plus hautes catégories)."""
+
   # Planning section
   [params.planning]
     enable = true
@@ -96,11 +94,11 @@ theme = "bcs-theme"
       <br /><br />Les cours seront répartis comme suit :"""
 
     bottomPlanning = """Merci d'arriver 15 min avant votre cours.<br /><br />
-      <span style="color: #0033cc; font-weight: bold;">Les cours et la soirée du samedi</span> auront lieu à Dance Gallery, 20 rue Perrin de la Touche, 35000 Rennes.<br /><br />
+      <span style="color: #51161c; font-weight: bold;">Les cours et la soirée du samedi</span> auront lieu à Dance Gallery, 20 rue Perrin de la Touche, 35000 Rennes.<br /><br />
       <i>Merci de bien vouloir vous garer correctement par respect pour les voisins : les places privatives, entrées de garages, … des voisins et les lignes jaunes au sol sont à respecter.</i><br />
       <i>Le rond-point en face de Dance Gallery n'est pas un parking, il est interdit de s'y garer.</i><br />
       <i>Si avec votre voiture, sur le parking de Dance Gallery, vous bloquez un ou plusieurs autres véhicules, merci d’avance de mettre sur votre tableau de bord vos nom et prénom visiblement pour être facilement trouvable sans avoir à interrompre les cours ou la soirée.</i><br /><br />
-      <span style="color: #0033cc; font-weight: bold;">Les cours du dimanche</span> auront lieu à L’Espace des Deux Rives, 4 allée Georges Palante à Rennes.<br /><br />
+      <span style="color: #51161c; font-weight: bold;">Les cours du dimanche</span> auront lieu à L’Espace des Deux Rives, 4 allée Georges Palante à Rennes.<br /><br />
       <i>Un parking souterrain est accessible pour les membres des cours, il suffit de s'avancer afin d'ouvrir la porte du parking.</i>
       <br /><br />
       <div class="iframeWrapper">
@@ -116,7 +114,7 @@ theme = "bcs-theme"
 
     [[params.planning.level.list]]
       title = "Débutant"
-      description = "Vous avez commencé le WCS en septembre 2017, ce niveau est pour vous !"
+      description = "Vous avez commencé le WCS en septembre 2018, ce niveau est pour vous !"
       url = "#planning"
 
     [[params.planning.level.list]]
@@ -155,9 +153,9 @@ theme = "bcs-theme"
       title = "Dimanche"
       hours = [
         "Accueil des stagiaires dès 13h30",
-        "14h00 à 15h30 - Avancé",
-        "15h50 à 17h20 - Intermédiaire",
-        "17h40 à 19h10 - Débutant"
+        "13h00 à 14h30 - Avancé",
+        "14h45 à 16h15 - Intermédiaire",
+        "16h30 à 18h00 - Débutant"
       ]
       url = "#planning"
 
@@ -169,7 +167,7 @@ theme = "bcs-theme"
     [[params.price.date]]
 
     [[params.price.date.list]]
-      title = "Avant le 03 février 2018"
+      title = "Du 26 novembre au 20 décembre 2018"
       price = [
         "1 niveau (3h) : 40 euro",
         "2 niveaux (6h) : 70 euro",
@@ -178,7 +176,7 @@ theme = "bcs-theme"
       url = "#price"
 
     [[params.price.date.list]]
-      title = "Après le 03 février 2018"
+      title = "Après le 20 décembre 2018"
       price = [
         "1 niveau (3h) : 50 euro",
         "2 niveaux (6h) : 80 euro",
@@ -217,14 +215,15 @@ theme = "bcs-theme"
   [params.registration]
     enable = true
     title = "Inscription"
-    googleForm = """<div class="iframeWrapper">
-    <iframe src="https://docs.google.com/forms/d/1lABNNe2Ks1LuBxjigM3Z830draKRL0aoxbYQ92rNGvc/viewform?embedded=true" width="900" height="600" frameborder="0" marginwidth="0" marginheight="0">Chargement en cours&#8230;</iframe>
-    </div>"""
-
-  # Contact section
-  [params.contact]
-    enable = true
-    title = "Contactez nous"
+    description = """Pour vous inscrire, merci d'envoyer un email via ce formulaire tout en précisant les éléments suivants :
+    <ul style="color: #ffffff">
+      <li class="large">Si vous êtes Follower ou Leader</li>
+      <li class="large">Votre niveau de pratique (débutant, intermédiaire, avancé)</li>
+      <li class="large">Le nom de votre partenaire dans le cas ou vous faites une inscription en couple</li>
+      <li class="large">Si vous pouvez héberger ou si vous souhaitez être hébergé</li>
+    </ul>
+    <br /><br />
+    """
     buttonText = "Envoyer le message"
 
     email = "breizhcoastswing@gmail.com"
@@ -235,19 +234,19 @@ theme = "bcs-theme"
       Veuillez retentez utltérieurement."""
 
     # 'warning' defines error messages for invalid inputs
-    [params.contact.form.lastname]
+    [params.registration.form.lastname]
       text = "Votre Nom *"
       warning = "Veuillez saisir votre nom."
 
-    [params.contact.form.firstname]
+    [params.registration.form.firstname]
       text = "Votre Prénom *"
       warning = "Veuillez saisir votre prénom."
 
-    [params.contact.form.email]
+    [params.registration.form.email]
       text = "Votre Email *"
       warning = "Veuillez saisir votre adresse email."
 
-    [params.contact.form.message]
+    [params.registration.form.message]
       text = "Votre message *"
       warning = "Veuillez saisir votre message."
 

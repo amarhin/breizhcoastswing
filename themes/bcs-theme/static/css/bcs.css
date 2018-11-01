@@ -14,7 +14,7 @@ body {
 }
 
 .text-primary {
-    color: #0066ff;
+    color: #51161c;
 }
 
 p {
@@ -39,14 +39,14 @@ a.active {
 }
 
 a {
-    color: #0066ff;
+    color: #51161c;
 }
 
 a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #0033cc;
+    color: #4e3335;
 }
 
 h1,
@@ -73,12 +73,12 @@ h6 {
 }
 
 .btn-primary {
-    border-color: #0066ff;
+    border-color: #51161c;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #0066ff;
+    background-color: #51161c;
 }
 
 .btn-primary:hover,
@@ -86,9 +86,9 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #0066ff;
+    border-color: #51161c;
     color: #000;
-    background-color: #0033cc;
+    background-color: #4e3335;
 }
 
 .btn-primary:active,
@@ -112,25 +112,25 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #0066ff;
-    background-color: #0066ff;
+    border-color: #51161c;
+    background-color: #51161c;
 }
 
 .btn-primary .badge {
-    color: #0066ff;
+    color: #51161c;
     background-color: #fff;
 }
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #0066ff;
+    border-color: #51161c;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #0066ff;
+    background-color: #51161c;
 }
 
 .btn-xl:hover,
@@ -138,9 +138,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #0066ff;
+    border-color: #51161c;
     color: #fff;
-    background-color: #0033cc;
+    background-color: #4e3335;
 }
 
 .btn-xl:active,
@@ -164,12 +164,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #0066ff;
-    background-color: #0066ff;
+    border-color: #51161c;
+    background-color: #51161c;
 }
 
 .btn-xl .badge {
-    color: #0066ff;
+    color: #51161c;
     background-color: #fff;
 }
 
@@ -180,14 +180,14 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
-    color: #0066ff;
+    color: #fff;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #0033cc;
+    color: #ffeef0;
 }
 
 .navbar-brand>img {
@@ -217,8 +217,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #0066ff;
-    background-color: #0066ff;
+    border-color: #ffeef0;
+    background-color: #ffeef0;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -227,7 +227,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #0066ff;
+    background-color: #ffeef0;
 }
 
 .navbar-default .nav li a {
@@ -241,19 +241,19 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #0066ff;
+    color: #ffeef0;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #0066ff;
+    background-color: #ffeef0;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #0033cc;
+    background-color: #4e3335;
 }
 
 @media(min-width:768px) {
@@ -274,7 +274,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .nav li a {
-        color: #000;
+        color: #fff;
     }
 
     .navbar-default .navbar-nav>.active>a {
@@ -450,7 +450,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #0066ff;
+    background-color: #51161c;
 }
 
 .timeline>li .timeline-image h4 {
@@ -617,73 +617,77 @@ aside .heading {
     margin-bottom: -40px;
 }
 
-section#contact {
+section#registration {
     background-color: #222;
     background-image: url(../img/map-image.png);
     background-position: center;
     background-repeat: no-repeat;
 }
 
-section#contact .section-heading {
+section#registration .section-heading {
     color: #fff;
 }
 
-section#contact .form-group {
+section#registration .section-description {
+    color: #fff;
+}
+
+section#registration .form-group {
     margin-bottom: 25px;
 }
 
-section#contact .form-group input,
-section#contact .form-group textarea {
+section#registration .form-group input,
+section#registration .form-group textarea {
     padding: 20px;
 }
 
-section#contact .form-group input.form-control {
+section#registration .form-group input.form-control {
     height: auto;
 }
 
-section#contact .form-group textarea.form-control {
+section#registration .form-group textarea.form-control {
     height: 236px;
 }
 
-section#contact .form-control:focus {
+section#registration .form-control:focus {
     border-color: #0066ff;
     box-shadow: none;
 }
 
-section#contact::-webkit-input-placeholder {
+section#registration::-webkit-input-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact:-moz-placeholder {
+section#registration:-moz-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact::-moz-placeholder {
+section#registration::-moz-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact:-ms-input-placeholder {
+section#registration:-ms-input-placeholder {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #bbb;
 }
 
-section#contact .text-danger {
+section#registration .text-danger {
     color: #e74c3c;
 }
 
-section#contact .text-success {
-    color: #ffffff;
+section#registration .text-success {
+    color: #fff;
 }
 
 footer {
@@ -729,7 +733,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #0066ff;
+    background-color: #51161c;
 }
 
 .btn:focus,
@@ -741,12 +745,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #0066ff;
+    background: #51161c;
 }
 
 ::selection {
     text-shadow: none;
-    background: #0066ff;
+    background: #51161c;
 }
 
 img::selection {
@@ -772,5 +776,5 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #0066ff;
+    webkit-tap-highlight-color: #51161c;
 }-
