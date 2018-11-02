@@ -224,12 +224,12 @@ theme = "bcs-theme"
     </ul>
     <br /><br />
     """
-    buttonText = "Envoyer le message"
+    buttonText = "Envoyer votre inscription"
 
     email = "breizhcoastswing@gmail.com"
 
     # Success and error message overwrite for async contact form
-    thanks = "Merci de nous avoir contacté!"
+    thanks = "Merci de vous êtes inscrit à cette nouvelle édition du Breizh Coast Swing!"
     error = """Votre message ne peut malheureusement être envoyé.<br />
       Veuillez retentez utltérieurement."""
 
