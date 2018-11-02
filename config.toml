@@ -199,8 +199,8 @@ theme = "bcs-theme"
       description = """Les inscriptions ne seront confirmées qu'à réception du
         règlement que vous pouvez soit me remettre en main propre, soit m'envoyer à l'adresse suivante :<br /><br />
         Hélène BURY<br />
-        13 rue Renée Prévert<br />
-        35000 RENNES<br /><br />
+        18 rue de la Rosais<br />
+        35132 Vezin-le-Coquet<br /><br />
         Merci de libeller vos chèques à l'ordre de l'association « FUN CLUB 35 »."""
       url = "#price"
 
@@ -256,4 +256,4 @@ theme = "bcs-theme"
 
   [[params.footer.social]]
     icon = "fa-facebook"
-    link = "https://www.facebook.com/events/1612524012165504/"
+    link = "https://www.facebook.com/events/2234134306868570/"
