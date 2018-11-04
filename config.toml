@@ -215,7 +215,8 @@ theme = "bcs-theme"
   [params.registration]
     enable = true
     title = "Inscription"
-    description = """Pour vous inscrire, merci d'envoyer un email via ce formulaire tout en précisant les éléments suivants :
+    description = """<strong style="color: #ffffff; font-size: 2em">Les inscrpitions débuteront à partir du 26 Novembre 2018.</strong><br /><br />
+    Pour vous inscrire, merci d'envoyer un email via ce formulaire tout en précisant les éléments suivants :
     <ul style="color: #ffffff">
       <li class="large">Si vous êtes Follower ou Leader</li>
       <li class="large">Votre niveau de pratique (débutant, intermédiaire, avancé)</li>
