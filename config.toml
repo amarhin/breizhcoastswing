@@ -29,7 +29,7 @@ theme = "bcs-theme"
 
   # Hero section
   [params.hero]
-    title = "Vous avez aimé le Breizh Coast Swing 3 en février 2018 ? <br />Alors vous aimerez plus encore le"
+    title = "Vous avez aimé le Breizh Coast Swing 3 en Mars 2018 ? <br />Alors vous aimerez plus encore le"
     subtitle = "Breizh Coast Swing 4"
     buttonText = "En savoir plus"
 
@@ -94,19 +94,13 @@ theme = "bcs-theme"
       <br /><br />Les cours seront répartis comme suit :"""
 
     bottomPlanning = """Merci d'arriver 15 min avant votre cours.<br /><br />
-      <span style="color: #51161c; font-weight: bold;">Les cours et la soirée du samedi</span> auront lieu à Dance Gallery, 20 rue Perrin de la Touche, 35000 Rennes.<br /><br />
+      <span style="color: #51161c; font-weight: bold;">Tout le stage (les cours et la soirée)</span> aura lieu à Dance Gallery, 20 rue Perrin de la Touche, 35000 Rennes.<br /><br />
       <i>Merci de bien vouloir vous garer correctement par respect pour les voisins : les places privatives, entrées de garages, … des voisins et les lignes jaunes au sol sont à respecter.</i><br />
       <i>Le rond-point en face de Dance Gallery n'est pas un parking, il est interdit de s'y garer.</i><br />
       <i>Si avec votre voiture, sur le parking de Dance Gallery, vous bloquez un ou plusieurs autres véhicules, merci d’avance de mettre sur votre tableau de bord vos nom et prénom visiblement pour être facilement trouvable sans avoir à interrompre les cours ou la soirée.</i><br /><br />
-      <span style="color: #51161c; font-weight: bold;">Les cours du dimanche</span> auront lieu à L’Espace des Deux Rives, 4 allée Georges Palante à Rennes.<br /><br />
-      <i>Un parking souterrain est accessible pour les membres des cours, il suffit de s'avancer afin d'ouvrir la porte du parking.</i>
       <br /><br />
       <div class="iframeWrapper">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2663.405260230934!2d-1.6905426847542313!3d48.12170756024573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480ede248e83974d%3A0x16e41597e798d823!2sDance+Gallery!5e0!3m2!1sfr!2sfr!4v1447616147766" width="853" height="480" frameborder="0" style="border:0" allowfullscreen=""></iframe>
-      </div>
-      <br />
-      <div class="iframeWrapper">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2664.101176856498!2d-1.662291848402528!3d48.10828392911922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480edfaccb425d65%3A0xb588b937b5a1fa97!2sEspace+des+2+Rives!5e0!3m2!1sfr!2sfr!4v1514498208699" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
       """
 
@@ -225,7 +219,7 @@ theme = "bcs-theme"
     </ul>
     <br /><br />
     """
-    buttonText = "Envoyer votre inscription"
+    buttonText = "Inscrivez-vous"
 
     email = "breizhcoastswing@gmail.com"
 
