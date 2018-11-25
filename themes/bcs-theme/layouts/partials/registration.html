@@ -30,21 +30,21 @@
 
                 {{ with .Site.Params.registration.form.lastname }}
                 <div class="form-group">
-                  <input disabled class="form-control" id="lastName" required="required" type="text" name="lastName" placeholder="{{ with .text }}{{ .  | markdownify }}{{ end }}" data-validation-error-msg="{{ with .warning }}{{ . | markdownify }}{{ end }}">
+                  <input class="form-control" id="lastName" required="required" type="text" name="lastName" placeholder="{{ with .text }}{{ .  | markdownify }}{{ end }}" data-validation-error-msg="{{ with .warning }}{{ . | markdownify }}{{ end }}">
                   <p class="help-block text-danger"></p>
                 </div>
                 {{ end }}
 
                 {{ with .Site.Params.registration.form.firstname }}
                 <div class="form-group">
-                  <input disabled class="form-control" id="firstName" required="required" type="text" name="firstName" placeholder="{{ with .text }}{{ .  | markdownify }}{{ end }}" data-validation-error-msg="{{ with .warning }}{{ . | markdownify }}{{ end }}">
+                  <input class="form-control" id="firstName" required="required" type="text" name="firstName" placeholder="{{ with .text }}{{ .  | markdownify }}{{ end }}" data-validation-error-msg="{{ with .warning }}{{ . | markdownify }}{{ end }}">
                   <p class="help-block text-danger"></p>
                 </div>
                 {{ end }}
 
                 {{ with .Site.Params.registration.form.email }}
                 <div class="form-group">
-                  <input disabled class="form-control" id="email" required="required" type="email" name="_replyto" placeholder="{{ with .text }}{{ . | markdownify }}{{ end }}" data-validation-error-msg="{{ with .warning }}{{ . | markdownify }}{{ end }}">
+                  <input class="form-control" id="email" required="required" type="email" name="_replyto" placeholder="{{ with .text }}{{ . | markdownify }}{{ end }}" data-validation-error-msg="{{ with .warning }}{{ . | markdownify }}{{ end }}">
                   <p class="help-block text-danger"></p>
                 </div>
                 {{ end }}
@@ -54,7 +54,7 @@
               <div class="col-md-6">
               {{ with .Site.Params.registration.form.message }}
                 <div class="form-group">
-                  <textarea disabled class="form-control" id="message" required="required" name="message" placeholder="{{ with .text }}{{ . | markdownify }}{{ end }}" data-validation-error-msg="{{ with .warning }}{{ . | markdownify }}{{ end }}"></textarea>
+                  <textarea class="form-control" id="message" required="required" name="message" placeholder="{{ with .text }}{{ . | markdownify }}{{ end }}" data-validation-error-msg="{{ with .warning }}{{ . | markdownify }}{{ end }}"></textarea>
                   <p class="help-block text-danger"></p>
                 </div>
                 {{ end }}
@@ -80,7 +80,7 @@
                   {{ end }}
                   </p>
                 </div><br />
-                <button disabled type="submit" value="Submit" class="btn btn-xl">{{ with .Site.Params.registration.buttonText }}{{ . }}{{ end }}</button>
+                <button type="submit" value="Submit" class="btn btn-xl">{{ with .Site.Params.registration.buttonText }}{{ . }}{{ end }}</button>
               </div>
             </div>
 

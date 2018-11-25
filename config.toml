@@ -146,7 +146,7 @@ theme = "bcs-theme"
     [[params.planning.date.list]]
       title = "Dimanche"
       hours = [
-        "Accueil des stagiaires dès 13h30",
+        "Accueil des stagiaires dès 12h30",
         "13h00 à 14h30 - Avancé",
         "14h45 à 16h15 - Intermédiaire",
         "16h30 à 18h00 - Débutant"
